@@ -1,8 +1,9 @@
 # springboot-parent工程
 springboot公众号教程，欢迎关注
+ 
+- <img src="https://github.com/zhangliang520/springboot-parent/blob/master/gzh.png" alt="公众号" width="100" height="100" align="bottom" />
 
-- ![公众号](./gzh.png =100x100)
-
+ 
 
 #### 历史回顾
 
