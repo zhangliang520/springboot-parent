@@ -1,7 +1,7 @@
 # springboot-parent工程
 springboot公众号教程，欢迎关注
 
-- ![公众号][base64str]
+- ![公众号](https://github.com/zhangliang520/springboot-parent/blob/master/gzh.png?raw=true)
 
 
 #### 历史回顾
