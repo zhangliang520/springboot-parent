@@ -1,6 +1,7 @@
 # springboot-parent工程
 springboot公众号教程
-![avatar](https://mp.weixin.qq.com/misc/getqrcode?fakeid=3204535610&token=107702778)
+
+![avatar](http://mp.weixin.qq.com/misc/getqrcode?fakeid=3204535610&token=107702778)
 
 #### 历史回顾
 
