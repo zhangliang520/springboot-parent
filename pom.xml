@@ -8,7 +8,8 @@
 		<module>springboot-web</module>
 		<module>springboot-redis</module>
 		<module>springboot-session-redis</module>
-	</modules>
+        <module>springboot-jpa</module>
+    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
