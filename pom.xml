@@ -9,6 +9,7 @@
 		<module>springboot-redis</module>
 		<module>springboot-session-redis</module>
         <module>springboot-jpa</module>
+        <module>springboot-multi-datasource</module>
     </modules>
 
 	<parent>

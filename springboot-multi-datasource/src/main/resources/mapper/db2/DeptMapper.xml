@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.multi.datasource.mapper.db2.DeptMapper" >
+
+    <resultMap id="BaseResultMap" type="com.example.multi.datasource.domain.Dept" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="name" property="name" jdbcType="VARCHAR" /> 
+    </resultMap>
+    
+    <sql id="Base_Column_List" >
+        id,name
+    </sql>
+
+    <select id="getAll" resultMap="BaseResultMap"  >
+       SELECT 
+       <include refid="Base_Column_List" />
+	   FROM tb_dept
+    </select>
+
+    <select id="getOne" parameterType="java.lang.Long" resultMap="BaseResultMap" >
+        SELECT 
+       <include refid="Base_Column_List" />
+	   FROM tb_dept
+	   WHERE id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.example.multi.datasource.domain.Dept" >
+       INSERT INTO 
+       		tb_dept
+       		(name)
+       	VALUES
+       		(#{name})
+    </insert>
+    
+    <update id="update" parameterType="com.example.multi.datasource.domain.Dept" >
+       UPDATE 
+       		tb_dept
+       SET 
+       	name = #{name}
+       WHERE
+       		id = #{id}
+    </update>
+    
+    <delete id="delete" parameterType="java.lang.Long" >
+       DELETE FROM
+       		 tb_dept
+       WHERE 
+       		 id =#{id}
+    </delete>
+
+</mapper>
