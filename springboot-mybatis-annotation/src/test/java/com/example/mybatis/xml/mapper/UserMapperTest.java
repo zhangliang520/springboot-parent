@@ -1,7 +1,7 @@
-package com.example.mybatis.annotation.mapper;
+package com.example.mybatis.xml.mapper;
 
-import com.example.mybatis.annotation.domain.UserEntity;
-import com.example.mybatis.annotation.enums.UserSexEnum;
+import com.example.mybatis.xml.domain.UserEntity;
+import com.example.mybatis.xml.enums.UserSexEnum;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

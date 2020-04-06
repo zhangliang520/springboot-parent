@@ -1,6 +1,6 @@
-package com.example.mybatis.annotation.domain;
+package com.example.mybatis.xml.domain;
 
-import com.example.mybatis.annotation.enums.UserSexEnum;
+import com.example.mybatis.xml.enums.UserSexEnum;
 import lombok.Data;
 
 @Data
