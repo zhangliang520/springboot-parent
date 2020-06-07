@@ -12,6 +12,7 @@
         <module>springboot-multi-datasource</module>
         <module>springboot-mybatis-annotation</module>
 		<module>springboot-mybatis-xml</module>
+        <module>springboot-scheduling</module>
     </modules>
 
 	<parent>

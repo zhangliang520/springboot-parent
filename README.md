@@ -16,6 +16,8 @@ springboot公众号教程，欢迎关注
 - [07-springboot系列：jpa的使用](http://mp.weixin.qq.com/s?__biz=MzIwNDUzNTYxMA==&mid=2247484412&idx=1&sn=32ebfae4cae1f990c99b48dbe9ed27e9&chksm=973fe1a9a04868bfbf0301473dcc02c31bd5d95acb191b279ea074d853b7778584d9c93176d9&scene=21#wechat_redirect)  
 - [08-springboot系列：jpa的高级使用](http://mp.weixin.qq.com/s?__biz=MzIwNDUzNTYxMA==&mid=2247484424&idx=1&sn=68b7a3e1a110491789924f00208b3f15&chksm=973fe65da0486f4b9969a0370fdc2847715c83b10ddca25be64dc907eacb81c5b91d80a8ea5f&scene=21#wechat_redirect)  
 - [09-springboot系列：jpa的高级使用2](http://mp.weixin.qq.com/s?__biz=MzIwNDUzNTYxMA==&mid=2247484434&idx=1&sn=9d1c8bca7c778347a735166b26e805c0&chksm=973fe647a0486f512288777b6649c2e5a0610f646535a6867bc456c64d1887d4c01e7826984c&scene=21#wechat_redirect)  
-
+- [10-springboot系列：多数据源]()
+- [11-springboot系列： Mybatis注解使用]()
+- [12-springboot系列： Mybatis的xml使用]()
 
 
