@@ -13,6 +13,8 @@
         <module>springboot-mybatis-annotation</module>
 		<module>springboot-mybatis-xml</module>
         <module>springboot-scheduling</module>
+		<module>springboot-email</module>
+        <module>springboot-mongodb</module>
     </modules>
 
 	<parent>
