@@ -17,7 +17,8 @@
         <module>springboot-mongodb</module>
         <module>springboot-multi-mongodb</module>
         <module>springboot-upload</module>
-    </modules>
+		<module>springboot-mybatis-plus</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

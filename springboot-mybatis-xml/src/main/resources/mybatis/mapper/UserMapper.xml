@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.example.mybatis.xml.mapper.UserMapper" >
+<mapper namespace="com.example.mybatis.annotation.mapper.UserMapper" >
 
-    <resultMap id="BaseResultMap" type="com.example.mybatis.xml.domain.UserEntity" >
+    <resultMap id="BaseResultMap" type="com.example.mybatis.annotation.domain.UserEntity" >
         <id column="id" property="id" jdbcType="BIGINT" />
-        <result column="user_sex" property="userSex" javaType="com.example.mybatis.xml.enums.UserSexEnum"/>
+        <result column="user_sex" property="userSex" javaType="com.example.mybatis.annotation.enums.UserSexEnum"/>
         <result column="userName" property="userName" jdbcType="VARCHAR" />
         <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
         <result column="passWord" property="passWord" jdbcType="VARCHAR" />
@@ -32,7 +32,7 @@
         FROM tb_user
     </select>
 
-    <insert id="insert" parameterType="com.example.mybatis.xml.domain.UserEntity" >
+    <insert id="insert" parameterType="com.example.mybatis.annotation.domain.UserEntity" >
        INSERT INTO 
        		tb_user
        		(userName,passWord,user_sex) 
@@ -40,7 +40,7 @@
        		(#{userName}, #{passWord}, #{userSex})
     </insert>
     
-    <update id="update" parameterType="com.example.mybatis.xml.domain.UserEntity" >
+    <update id="update" parameterType="com.example.mybatis.annotation.domain.UserEntity" >
        UPDATE 
        		tb_user 
        SET 
