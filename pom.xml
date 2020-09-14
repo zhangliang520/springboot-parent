@@ -18,6 +18,8 @@
         <module>springboot-multi-mongodb</module>
         <module>springboot-upload</module>
 		<module>springboot-mybatis-plus</module>
+		<module>springboot-memcached</module>
+		<module>springboot-init</module>
 	</modules>
 
 	<parent>

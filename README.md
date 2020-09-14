@@ -26,5 +26,5 @@ springboot公众号教程，欢迎关注
 - [17-springboot系列：单数据源MongoDB](http://mp.weixin.qq.com/s?__biz=MzIwNDUzNTYxMA==&mid=2247484506&idx=1&sn=8f6b7ad50c6ba32ec76889bc6ddfb443&chksm=973fe60fa0486f197d53338479528f68637c991c69bbe82699be2c1398370dea861bcca6a32c&scene=21#wechat_redirect)
 - [18-springboot系列：多数据源MongoDB](http://mp.weixin.qq.com/s?__biz=MzIwNDUzNTYxMA==&mid=2247484513&idx=1&sn=8907dad277894797ce649bf1d5f0cb75&chksm=973fe634a0486f22cd1d19a241bbabc68bbdf6a3cb17b6998ebc2d18fa066a4d9e25e442d6b7&scene=21#wechat_redirect) 
 - [19-springboot系列：文件上传](http://mp.weixin.qq.com/s?__biz=MzIwNDUzNTYxMA==&mid=2247484520&idx=1&sn=e47feeb0a10f1966e4343910cde639a3&chksm=973fe63da0486f2b13115ebede07c1809edeacab7e7c670b908e6c93ab014c87df8a11da8af8&scene=21#wechat_redirect) 
-
-
+- [20-springboot系列：MyBatis-Plus整合使用]()
+- [21-springboot系列： CommandLineRunner解决项目启动时初始化资源]()
