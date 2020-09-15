@@ -20,7 +20,8 @@
 		<module>springboot-mybatis-plus</module>
 		<module>springboot-memcached</module>
 		<module>springboot-init</module>
-	</modules>
+        <module>springboot-listener</module>
+    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
