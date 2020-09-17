@@ -21,6 +21,8 @@
 		<module>springboot-memcached</module>
 		<module>springboot-init</module>
         <module>springboot-init-other</module>
+        <module>springboot-security</module>
+        <module>springboot-security-moreuser</module>
     </modules>
 
 	<parent>
