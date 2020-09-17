@@ -3,6 +3,7 @@ package top.zlcxy.blog.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -18,6 +19,7 @@ import javax.annotation.Resource;
  */
 @Configuration
 @EnableWebSecurity //开启security
+@EnableGlobalMethodSecurity(prePostEnabled=true) //开启security角色访问
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Resource
@@ -37,7 +39,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth.inMemoryAuthentication()
                 .withUser("admin")
                 .password(passwordEncoder().encode("123456"))
-                .roles();
+                .roles("admin");
 
         auth.inMemoryAuthentication()
                 .withUser("user")
@@ -47,7 +49,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth.inMemoryAuthentication()
                 .withUser(securityUser.getName())
                 .password(passwordEncoder().encode(securityUser.getPassword()))
-                .roles();
+                .roles("normal");
     }
 
 }
